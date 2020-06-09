@@ -33,8 +33,22 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Browse
+                            </a>
+
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li class="nav-item"><a class="nav-link" href="/threads">All Threads</a></li>
+                                @if (auth()->check())
+                                    <li class="nav-item"><a class="nav-link" href="/threads?by={{ auth()->user()->name }}">My Threads</a></li>
+                                @endif
+                            </ul>
+
+                        </li>
+
                         <li class="nav-item">
-                            <a class="nav-link" href="/threads">All Threads</a>
+                            <a class="nav-link" href="/threads/create">New Thread</a>
                         </li>
 
                         <li class="nav-item dropdown">
@@ -43,7 +57,7 @@
                             </a>
 
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                @foreach(App\Chanel::all() as $chanel)
+                                @foreach($chanels as $chanel)
                                     <li> <a class="dropdown-item" href="/threads/{{ $chanel->slug }}">{{ $chanel->name }}</a></li>
                                 @endforeach
                             </ul>
