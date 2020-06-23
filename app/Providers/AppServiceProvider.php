@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Chanel;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\View\View;
 
@@ -14,7 +15,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        if($this->app->isLocal()) {
+            $this->app->register(\Barryvdh\Debugbar\ServiceProvider::class);
+        }
     }
 
     /**
@@ -25,7 +28,11 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         \View::composer('*', function ($view) {
-           $view->with('chanels', \App\Chanel::all());
+            $chanels = \Cache::rememberForever('chanels', function () {
+                return Chanel::all();
+            });
+
+           $view->with('chanels', $chanels);
         });
     }
 }
