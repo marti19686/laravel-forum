@@ -10,9 +10,11 @@
                     </h6>
                 </div>
 
+                @if (Auth::check())
                 <div class="d-flex justify-content-end">
                     <favorite :reply="{{ $reply }}"></favorite>
                 </div>
+                @endif
             </div>
         </div>
 

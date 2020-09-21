@@ -10,7 +10,7 @@
                 <h4>Since {{ $profileUser->created_at->diffForHumans() }}</h4>
             </div>
 
-            @foreach($activities as $date => $activity)
+            @forelse($activities as $date => $activity)
                 <div class="pb-2 mt-4 mb-2 border-bottom">
                     <h3 class="header">{{ $date }}</h3>
                 </div>
@@ -20,7 +20,9 @@
                         @include("profiles.activities.{$record->type}", ['activity' => $record])
                     @endif
                 @endforeach
-            @endforeach
+            @empty
+                <p>There is no activity for this user yet.</p>
+            @endforelse
 
             <div class="mt-4">
 {{--                {{ $threads->links() }}--}}
