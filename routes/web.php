@@ -26,6 +26,7 @@ Route::post('/threads', 'ThreadsController@store');
 Route::get('/threads/{chanel}', 'ThreadsController@index');
 Route::get('/threads/{chanel}/{thread}', 'ThreadsController@show');
 Route::delete('/threads/{chanel}/{thread}', 'ThreadsController@destroy');
+Route::get('/threads/{chanel}/{thread}/replies', 'RepliesController@index');
 Route::post('/threads/{chanel}/{thread}/replies', 'RepliesController@store');
 Route::patch('/replies/{reply}', 'RepliesController@update');
 Route::delete('/replies/{reply}', 'RepliesController@destroy');
@@ -35,10 +36,9 @@ Route::delete('/replies/{reply}/favorites', 'FavoritesController@destroy');
 
 Route::get('/profiles/{user}', 'ProfilesController@show')->name('profile');
 
-Auth::routes();
 
+
+
+Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
