@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="684f9b8e-733b-4738-a443-9eb078171158" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/js/components/Paginator.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RepliesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RepliesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/NewReply.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/NewReply.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Filters/ThreadFilters.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Filters/ThreadFilters.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/Replies.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Replies.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/Reply.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Reply.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/threads/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/threads/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/nav.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/ParticipateInForumTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ParticipateInForumTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Feature/ReadThreadsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ReadThreadsTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,53 +53,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/js/components/Replies.vue">
+        <entry file="file://$PROJECT_DIR$/tests/Feature/ReadThreadsTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="46" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="46" />
-              <folding>
-                <element signature="e#271#303#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/js/components/NewReply.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/js/components/Paginator.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="40" column="26" lean-forward="true" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
-              <folding>
-                <element signature="e#239#246#1" expanded="true" />
-                <element signature="e#721#728#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/js/mixins/collection.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            <state relative-caret-position="172">
+              <caret line="71" column="51" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -116,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="83" column="40" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
+            <state relative-caret-position="332">
+              <caret line="126" column="57" selection-start-line="126" selection-start-column="57" selection-end-line="126" selection-end-column="57" />
               <folding>
                 <element signature="e#40#55#0#PHP" expanded="true" />
               </folding>
@@ -126,18 +74,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
+        <entry file="file://$PROJECT_DIR$/app/Filters/ThreadFilters.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="28" column="46" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="46" />
+            <state relative-caret-position="255">
+              <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Thread.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2020_05_19_194910_create_threads_table.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RepliesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
+            <state relative-caret-position="525">
               <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
               <folding>
                 <element signature="e#40#54#0#PHP" expanded="true" />
@@ -147,10 +109,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Feature/ReadThreadsTest.php">
+        <entry file="file://$PROJECT_DIR$/tests/Feature/ParticipateInForumTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="86" column="43" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="62" />
+            <state relative-caret-position="112">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding>
+                <element signature="e#33#86#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -158,8 +123,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/js/components/Reply.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+            <state relative-caret-position="135">
+              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Reply.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="59" lean-forward="true" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -191,6 +165,13 @@
       <find>attr</find>
       <find>repl</find>
       <find>'csrfToken</find>
+      <find>Tests\Feature\ParticipateInForumTest::an_authenticated_user_may_participate_in_forum_threads</find>
+      <find>a_user_can_request_all_replies_for_a_given_thread</find>
+      <find>Popula</find>
+      <find>ThreadFil</find>
+      <find>dele</find>
+      <find>ser_may_participate_in_forum_thre</find>
+      <find>an_filter_threads_by_popularit</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -199,9 +180,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Filters/Filters.php" />
         <option value="$PROJECT_DIR$/tests/utilities/functions.php" />
-        <option value="$PROJECT_DIR$/app/Filters/ThreadFilters.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_06_17_202113_create_favorites_table.php" />
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_05_19_195426_create_replies_table.php" />
@@ -219,17 +198,14 @@
         <option value="$PROJECT_DIR$/tests/Feature/ProfilesTest.php" />
         <option value="$PROJECT_DIR$/app/RecordsActivity.php" />
         <option value="$PROJECT_DIR$/tests/Feature/CreateThreadsTest.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/nav.blade.php" />
         <option value="$PROJECT_DIR$/resources/js/components/Flash.vue" />
         <option value="$PROJECT_DIR$/resources/views/profiles/activities/created_fovorited.blade.php" />
         <option value="$PROJECT_DIR$/app/Favorite.php" />
         <option value="$PROJECT_DIR$/resources/views/profiles/activities/created_favorite.blade.php" />
         <option value="$PROJECT_DIR$/app/Policies/ReplyPolicy.php" />
         <option value="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
-        <option value="$PROJECT_DIR$/tests/Feature/ParticipateInForumTest.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/FavoritesController.php" />
         <option value="$PROJECT_DIR$/tests/Feature/FavoritesTest.php" />
-        <option value="$PROJECT_DIR$/app/Reply.php" />
         <option value="$PROJECT_DIR$/resources/js/components/Favorite.vue" />
         <option value="$PROJECT_DIR$/app/Favoritable.php" />
         <option value="$PROJECT_DIR$/resources/views/profiles/show.blade.php" />
@@ -238,11 +214,9 @@
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/resources/js/bootstrap.js" />
         <option value="$PROJECT_DIR$/app/User.php" />
-        <option value="$PROJECT_DIR$/app/Thread.php" />
         <option value="$PROJECT_DIR$/resources/js/components/Reply.vue" />
         <option value="$PROJECT_DIR$/resources/views/threads/show.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/tests/Feature/ReadThreadsTest.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php" />
         <option value="$PROJECT_DIR$/resources/js/mixins/Collection.js" />
         <option value="$PROJECT_DIR$/resources/js/app.js" />
@@ -250,6 +224,13 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/RepliesController.php" />
         <option value="$PROJECT_DIR$/resources/js/components/Replies.vue" />
         <option value="$PROJECT_DIR$/resources/js/components/Paginator.vue" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/nav.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2020_10_01_192810_add_new_columnto_threads.php" />
+        <option value="$PROJECT_DIR$/app/Reply.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/ParticipateInForumTest.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/ReadThreadsTest.php" />
+        <option value="$PROJECT_DIR$/app/Filters/ThreadFilters.php" />
+        <option value="$PROJECT_DIR$/app/Thread.php" />
       </list>
     </option>
   </component>
@@ -389,6 +370,12 @@
               <item name="forum" type="b2602c69:ProjectViewProjectNode" />
               <item name="forum" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Filters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forum" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Http" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -397,6 +384,17 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Http" type="462c0819:PsiDirectoryNode" />
               <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forum" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forum" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="forum" type="b2602c69:ProjectViewProjectNode" />
@@ -433,6 +431,28 @@
               <item name="forum" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forum" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forum" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="profiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forum" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="profiles" type="462c0819:PsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="forum" type="b2602c69:ProjectViewProjectNode" />
@@ -488,25 +508,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.ReadThreadsTest.a_user_can_request_all_replies_for_a_given_thread">
-    <configuration name="FavoritesTest.an_authenticated_user_can_unfavorite_a_reply" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\FavoritesTest" file="$PROJECT_DIR$/tests/Feature/FavoritesTest.php" method="an_authenticated_user_can_unfavorite_a_reply" scope="Method" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="PHPUnit.ReadThreadsTest.a_user_can_filter_threads_by_those_that_are_unanswered">
     <configuration name="ParticipateInForumTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\ParticipateInForumTest" file="$PROJECT_DIR$/tests/Feature/ParticipateInForumTest.php" scope="Class" />
       <method v="2" />
     </configuration>
-    <configuration name="ParticipateInForumTest.authorized_user_can_update_replies" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\ParticipateInForumTest" file="$PROJECT_DIR$/tests/Feature/ParticipateInForumTest.php" method="authorized_user_can_update_replies" scope="Method" />
+    <configuration name="ParticipateInForumTest.an_authenticated_user_may_participate_in_forum_threads" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ParticipateInForumTest" file="$PROJECT_DIR$/tests/Feature/ParticipateInForumTest.php" method="an_authenticated_user_may_participate_in_forum_threads" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="ParticipateInForumTest.unauthorized_users_cannot_update_replies" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\ParticipateInForumTest" file="$PROJECT_DIR$/tests/Feature/ParticipateInForumTest.php" method="unauthorized_users_cannot_update_replies" scope="Method" />
+    <configuration name="ParticipateInForumTest.authorized_users_can_delete_replies" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ParticipateInForumTest" file="$PROJECT_DIR$/tests/Feature/ParticipateInForumTest.php" method="authorized_users_can_delete_replies" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="ReadThreadsTest.a_user_can_request_all_replies_for_a_given_thread" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\ReadThreadsTest" file="$PROJECT_DIR$/tests/Feature/ReadThreadsTest.php" method="a_user_can_request_all_replies_for_a_given_thread" scope="Method" />
+    <configuration name="ParticipateInForumTest.unauthorized_users_cannot_delete_replies" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ParticipateInForumTest" file="$PROJECT_DIR$/tests/Feature/ParticipateInForumTest.php" method="unauthorized_users_cannot_delete_replies" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ReadThreadsTest.a_user_can_filter_threads_by_those_that_are_unanswered" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ReadThreadsTest" file="$PROJECT_DIR$/tests/Feature/ReadThreadsTest.php" method="a_user_can_filter_threads_by_those_that_are_unanswered" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -515,11 +535,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="PHPUnit.ReadThreadsTest.a_user_can_request_all_replies_for_a_given_thread" />
-        <item itemvalue="PHPUnit.FavoritesTest.an_authenticated_user_can_unfavorite_a_reply" />
+        <item itemvalue="PHPUnit.ReadThreadsTest.a_user_can_filter_threads_by_those_that_are_unanswered" />
+        <item itemvalue="PHPUnit.ParticipateInForumTest.unauthorized_users_cannot_delete_replies" />
         <item itemvalue="PHPUnit.ParticipateInForumTest" />
-        <item itemvalue="PHPUnit.ParticipateInForumTest.unauthorized_users_cannot_update_replies" />
-        <item itemvalue="PHPUnit.ParticipateInForumTest.authorized_user_can_update_replies" />
+        <item itemvalue="PHPUnit.ParticipateInForumTest.authorized_users_can_delete_replies" />
+        <item itemvalue="PHPUnit.ParticipateInForumTest.an_authenticated_user_may_participate_in_forum_threads" />
       </list>
     </recent_temporary>
   </component>
@@ -568,64 +588,65 @@
       <workItem from="1601114582677" duration="21000" />
       <workItem from="1601494982317" duration="696000" />
       <workItem from="1601497102843" duration="5060000" />
+      <workItem from="1601578444350" duration="4194000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FavoritesTest_an_authenticated_user_can_unfavorite_a_reply - 2020.09.15 at 23h 31m 08s.xml">
-      <configuration name="FavoritesTest.an_authenticated_user_can_unfavorite_a_reply" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="ParticipateInForumTest_authorized_users_can_delete_replies - 2020.10.01 at 21h 44m 19s.xml">
+      <configuration name="ParticipateInForumTest.authorized_users_can_delete_replies" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="FavoritesTest_an_authenticated_user_can_unfavorite_a_reply - 2020.09.15 at 23h 31m 13s.xml">
-      <configuration name="FavoritesTest.an_authenticated_user_can_unfavorite_a_reply" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="ParticipateInForumTest_authorized_users_can_delete_replies - 2020.10.01 at 21h 44m 42s.xml">
+      <configuration name="ParticipateInForumTest.authorized_users_can_delete_replies" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="FavoritesTest_an_authenticated_user_can_unfavorite_a_reply - 2020.09.15 at 23h 32m 06s.xml">
-      <configuration name="FavoritesTest.an_authenticated_user_can_unfavorite_a_reply" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="ParticipateInForumTest_authorized_users_can_delete_replies - 2020.10.01 at 21h 44m 46s.xml">
+      <configuration name="ParticipateInForumTest.authorized_users_can_delete_replies" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="FavoritesTest_an_authenticated_user_can_unfavorite_a_reply - 2020.09.15 at 23h 32m 20s.xml">
-      <configuration name="FavoritesTest.an_authenticated_user_can_unfavorite_a_reply" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="ParticipateInForumTest_authorized_users_can_delete_replies - 2020.10.01 at 21h 45m 08s.xml">
+      <configuration name="ParticipateInForumTest.authorized_users_can_delete_replies" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="ReadThreadsTest_a_user_can_request_all_replies_for_a_given_thread - 2020.09.30 at 22h 28m 09s.xml">
-      <configuration name="ReadThreadsTest.a_user_can_request_all_replies_for_a_given_thread" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="ParticipateInForumTest_authorized_users_can_delete_replies - 2020.10.01 at 21h 45m 45s.xml">
+      <configuration name="ParticipateInForumTest.authorized_users_can_delete_replies" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="ReadThreadsTest_a_user_can_request_all_replies_for_a_given_thread - 2020.09.30 at 22h 29m 04s.xml">
-      <configuration name="ReadThreadsTest.a_user_can_request_all_replies_for_a_given_thread" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="ParticipateInForumTest_authorized_users_can_delete_replies - 2020.10.01 at 21h 45m 58s.xml">
+      <configuration name="ParticipateInForumTest.authorized_users_can_delete_replies" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="ReadThreadsTest_a_user_can_request_all_replies_for_a_given_thread - 2020.09.30 at 22h 29m 21s.xml">
-      <configuration name="ReadThreadsTest.a_user_can_request_all_replies_for_a_given_thread" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="ParticipateInForumTest - 2020.10.01 at 21h 46m 37s.xml">
+      <configuration name="ParticipateInForumTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="ReadThreadsTest_a_user_can_request_all_replies_for_a_given_thread - 2020.09.30 at 22h 30m 48s.xml">
-      <configuration name="ReadThreadsTest.a_user_can_request_all_replies_for_a_given_thread" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="ParticipateInForumTest - 2020.10.01 at 21h 47m 13s.xml">
+      <configuration name="ParticipateInForumTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="ReadThreadsTest_a_user_can_request_all_replies_for_a_given_thread - 2020.09.30 at 22h 40m 39s.xml">
-      <configuration name="ReadThreadsTest.a_user_can_request_all_replies_for_a_given_thread" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="ParticipateInForumTest_unauthorized_users_cannot_delete_replies - 2020.10.01 at 21h 47m 43s.xml">
+      <configuration name="ParticipateInForumTest.unauthorized_users_cannot_delete_replies" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="ReadThreadsTest_a_user_can_request_all_replies_for_a_given_thread - 2020.09.30 at 22h 41m 28s.xml">
-      <configuration name="ReadThreadsTest.a_user_can_request_all_replies_for_a_given_thread" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="ReadThreadsTest_a_user_can_filter_threads_by_those_that_are_unanswered - 2020.10.01 at 21h 52m 01s.xml">
+      <configuration name="ReadThreadsTest.a_user_can_filter_threads_by_those_that_are_unanswered" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96796000" />
+    <option name="totallyTimeSpent" value="100990000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1600" y="28" width="1920" height="1052" extended-state="6" />
+    <frame x="1920" y="289" width="1920" height="1052" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15721925" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15882353" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3293348" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991276" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49679145" weight="0.3293348" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946523" weight="0.3991276" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.329718" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.38822246" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.3171123" side_tool="true" visible="true" weight="0.38931298" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.6828877" visible="true" weight="0.38931298" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -658,28 +679,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="e#33#48#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/threads/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -731,13 +730,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/profiles/activities/created_thread.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/profiles/activities/activity.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -779,13 +771,6 @@
           <folding>
             <element signature="e#33#50#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/nav.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="59" column="41" selection-end-line="83" />
         </state>
       </provider>
     </entry>
@@ -834,16 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/ParticipateInForumTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="76" column="70" selection-start-line="76" selection-start-column="70" selection-end-line="76" selection-end-column="70" />
-          <folding>
-            <element signature="e#33#86#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -934,20 +909,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Reply.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Thread.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -965,41 +926,10 @@
     <entry file="file://$PROJECT_DIR$/public/web.config">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/ReadThreadsTest.php">
+    <entry file="file://$PROJECT_DIR$/resources/js/components/NewReply.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="86" column="43" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/Reply.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="28" column="46" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="83" column="40" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
-          <folding>
-            <element signature="e#40#55#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/mixins/collection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        <state relative-caret-position="495">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
@@ -1010,9 +940,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/mixins/collection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/Paginator.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="30" lean-forward="true" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/Replies.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/nav.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="24" column="91" selection-start-line="24" selection-start-column="81" selection-end-line="24" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="126" column="57" selection-start-line="126" selection-start-column="57" selection-end-line="126" selection-end-column="57" />
+          <folding>
+            <element signature="e#40#55#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/profiles/activities/created_thread.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RepliesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
+        <state relative-caret-position="525">
           <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
           <folding>
             <element signature="e#40#54#0#PHP" expanded="true" />
@@ -1020,31 +998,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/Replies.vue">
+    <entry file="file://$PROJECT_DIR$/resources/js/components/Reply.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="46" />
+        <state relative-caret-position="135">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Reply.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="59" lean-forward="true" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_10_01_192810_add_new_columnto_threads.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_05_19_194910_create_threads_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/ParticipateInForumTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
-            <element signature="e#271#303#0" expanded="true" />
+            <element signature="e#33#86#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/NewReply.vue">
+    <entry file="file://$PROJECT_DIR$/tests/Feature/ReadThreadsTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="172">
+          <caret line="71" column="51" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/Paginator.vue">
+    <entry file="file://$PROJECT_DIR$/app/Filters/ThreadFilters.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="40" column="26" lean-forward="true" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
-          <folding>
-            <element signature="e#239#246#1" expanded="true" />
-            <element signature="e#721#728#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Thread.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
         </state>
       </provider>
     </entry>

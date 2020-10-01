@@ -20,7 +20,9 @@
                         @if (auth()->check())
                             <li class="nav-item"><a class="nav-link" href="/threads?by={{ auth()->user()->name }}">My Threads</a></li>
                         @endif
+
                         <li class="nav-item"><a  class="nav-link" href="/threads?popular=1">Popular Threads</a></li>
+                        <li class="nav-item"><a  class="nav-link" href="/threads?unanswered=1">Unanswered Threads</a></li>
                     </ul>
 
                 </li>
