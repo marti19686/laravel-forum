@@ -3,8 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Reply;
+use App\Spam;
 use App\Thread;
 use Illuminate\Http\Request;
+use mysql_xdevapi\Exception;
 
 class RepliesController extends Controller
 {
@@ -18,11 +20,13 @@ class RepliesController extends Controller
         return $thread->replies()->paginate(10);
     }
 
-    public function store($chanelId, Thread $thread)
+    public function store($chanelId, Thread $thread, Spam $spam)
     {
         $this->validate(request(),[
             'body' => 'required'
         ]);
+
+        $spam->detect(request('body'));
 
         $reply = $thread->addReply([
             'body' => request('body'),
