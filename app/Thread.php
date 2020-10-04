@@ -2,6 +2,7 @@
 
 namespace App;
 
+use App\Notifications\ThreadWasUpdated;
 use Illuminate\Database\Eloquent\Model;
 
 class Thread extends Model
@@ -11,6 +12,8 @@ class Thread extends Model
     protected $guarded = [];
 
     protected $with = ['creator', 'chanel'];
+
+    protected $appends = ['isSubscribedTo'];
 
     protected static function boot()
     {
@@ -47,11 +50,48 @@ class Thread extends Model
 
     public function addReply($reply)
     {
-        return $this->replies()->create($reply);
+        $reply =  $this->replies()->create($reply);
+
+        $this->subscriptions
+            ->where('user_id', '!=', $reply->user_id)
+            ->each
+            ->notify($reply);
+
+        return $reply;
     }
 
     public function scopeFilter($query, $filters)
     {
         return $filters->apply($query);
+    }
+
+    public function subscribe($userId = null)
+    {
+        $this->subscriptions()->create([
+            'user_id' => $userId ?: auth()->id(),
+
+        ]);
+
+        return $this;
+    }
+
+    public function unsubscribe($userId = null)
+    {
+        $this->subscriptions()
+            ->where('user_id', $userId ?: auth()->id())
+            ->delete();
+
+    }
+
+    public function subscriptions()
+    {
+        return $this->hasMany(ThreadSubscription::class);
+    }
+
+    public function getIsSubscribedToAttribute()
+    {
+        return $this->subscriptions()
+            ->where('user_id', auth()->id())
+            ->exists();
     }
 }
